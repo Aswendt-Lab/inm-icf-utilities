@@ -1,10 +1,10 @@
 {
     "catalog_name": "ICF Study Catalog",
-    "logo_path": "fzj_icf_logo.svg",
+    "logo_path": "CCF_NeuroMRI_Catalog.svg",
     "link_color": "#007eb1",
     "link_hover_color": "#023d6b",
     "social_links": {
-        "about": "https://www.fz-juelich.de/en/infrastructure/imaging-core-facility-icf",
+        "about": "https://medfak.uni-koeln.de/en/research-transfer/infrastructure/central-core-facilities/neuro-mri",
         "documentation": null,
         "github": null,
         "twitter": null
