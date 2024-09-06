@@ -44,7 +44,7 @@ dicom_metadata_keys = [
     "PatientID",
     "PatientSex",
     "PatientAge",
-    "StudyDateAndTime",
+    "AcquisitionDateTime",
     "StudyInstanceUID",
     "StudyDescription",
     "SeriesDescription",
