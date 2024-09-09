@@ -44,12 +44,8 @@ dicom_metadata_keys = [
     "PatientID",
     "PatientSex",
     "PatientAge",
-<<<<<<< HEAD
     "StudyDate",
     "StudyTime",
-=======
-    "AcquisitionDateTime",
->>>>>>> refs/remotes/origin/main
     "StudyInstanceUID",
     "StudyDescription",
     "SeriesDescription",
