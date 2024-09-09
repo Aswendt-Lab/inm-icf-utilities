@@ -26,12 +26,34 @@ import datalad.api as dl
 # git-annex metadata (e.g., to enable metadata-driven views
 # of visit datasets)
 dicom_metadata_keys = [
+    "PatientID",
+    "PatientSex",
+    "PatientAge",
+    "AcquisitionDateTime",
+    "StudyInstanceUID",
+    "StudyDescription",
     "SeriesDescription",
     "SeriesNumber",
     "Modality",
-    "MRAcquisitionType",
     "ProtocolName",
     "PulseSequenceName",
+    "EchoPulseSequence",
+    "ReceiveCoilName",
+    "PartialFourier",
+    "ParallelAcquisitionTechnique",
+    "B1rms",
+    "EchoTime",
+    "RepetitionTime",
+    "FlipAngle",
+    "SliceThickness",
+    "PixelSpacing",
+    "FieldOfView",
+    "AcquisitionMatrix",
+    "AnatomicRegion",
+    "ImageOrientationAndPosition",
+    "NumberOfFrames",
+    "SAR",
+    "PatientPosition",
 ]
 
 
