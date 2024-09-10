@@ -27,7 +27,8 @@ dicom_metadata_keys = [
     "PatientID",
     "PatientSex",
     "PatientAge",
-    "AcquisitionDateTime",
+    "StudyDate",
+    "StudyTime",
     "StudyInstanceUID",
     "StudyDescription",
     "SeriesDescription",
@@ -45,13 +46,12 @@ dicom_metadata_keys = [
     "FlipAngle",
     "SliceThickness",
     "PixelSpacing",
-    "FieldOfView",
-    "AcquisitionMatrix",
-    "AnatomicRegion",
-    "ImageOrientationAndPosition",
+    "PercentPhaseFieldOfView",
+    "BodyPartExamined",
     "NumberOfFrames",
-    "SAR",
     "PatientPosition",
+    "PixelSpacing",
+    "SpecificAbsorptionRateValue",
 ]
 
 # Instantiate interface object for api
