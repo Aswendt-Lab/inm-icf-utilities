@@ -174,7 +174,7 @@ def generate_visit_entry(study_id, visit_id, metapath_dataset, metapath_file):
     for k in dicom_metadata_keys:
         unique_tag_vals[k] = list(filter(None, list(set(d[k] for d in dicoms))))
     additional_keyvals = {
-        "keywords": unique_tag_vals['ProtocolName'] + unique_tag_vals['Modality'],
+        "keywords": unique_tag_vals['ProtocolName'] + unique_tag_vals['Modality'] + unique_tag_vals['PatientAge'] + unique_tag_vals['PatientSex'],
         "additional_display": [
             {
                 "name": "DICOM",
