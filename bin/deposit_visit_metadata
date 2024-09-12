@@ -54,10 +54,21 @@ dicom_metadata_keys = [
     "ProtocolName",
     "PulseSequenceName",
     "EchoPulseSequence",
+    "ReceiveCoilName",
+    "PartialFourier",
+    "ParallelAcquisitionTechnique",
     "B1rms",
+    "EffectiveEchoTime",
+    "RepetitionTime",
+    "FlipAngle",
+    "SliceThickness",
+    "PixelSpacing",
+    "PercentPhaseFieldOfView",
     "BodyPartExamined",
     "NumberOfFrames",
     "PatientPosition",
+    "PixelSpacing",
+    "SpecificAbsorptionRateValue",
 ]
 
 

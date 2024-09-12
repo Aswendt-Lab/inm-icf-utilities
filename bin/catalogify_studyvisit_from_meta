@@ -23,7 +23,7 @@ icfstore_baseurl = 'https://data.inm-icf.de'
 # which DICOM tags to extract from DICOM files and store as
 # git-annex metadata (e.g., to enable metadata-driven views
 # of visit datasets)
-'''
+
 dicom_metadata_keys = [
     "PatientID",
     "PatientSex",
@@ -38,22 +38,23 @@ dicom_metadata_keys = [
     "ProtocolName",
     "PulseSequenceName",
     "EchoPulseSequence",
-   #"ReceiveCoilName",
-   #"PartialFourier",
-   #"ParallelAcquisitionTechnique",
+    "ReceiveCoilName",
+    "PartialFourier",
+    "ParallelAcquisitionTechnique",
     "B1rms",
-  # "EchoTime",
-  # "RepetitionTime",
-  # "FlipAngle",
-  # "SliceThickness",
-  # "PixelSpacing",
-  # "PercentPhaseFieldOfView",
+    "EffectiveEchoTime",
+    "RepetitionTime",
+    "FlipAngle",
+    "SliceThickness",
+    "PixelSpacing",
+    "PercentPhaseFieldOfView",
     "BodyPartExamined",
     "NumberOfFrames",
     "PatientPosition",
-   #"PixelSpacing",
-  # "SpecificAbsorptionRateValue",
-]'''
+    "PixelSpacing",
+    "SpecificAbsorptionRateValue",
+]
+'''
 
 dicom_metadata_keys = [
     "PatientID",
@@ -74,6 +75,7 @@ dicom_metadata_keys = [
     "NumberOfFrames",
     "PatientPosition",
 ]
+'''
 
 # Instantiate interface object for api
 catalog_api = Catalog()
